@@ -1,5 +1,37 @@
 <!doctype html>
 <html lang="en">
+	<style>
+		/*div {
+ 			padding: 10px;
+  			border: 5px solid gray;
+  			margin: 0;
+		}*/
+		.column{
+			float:left;
+			width:33.33%;
+			padding: 20px 0px 20px 0px;
+		}
+		.row{
+			padding: 0px 20px 0px 130px
+		}
+		/* Clear floats after image containers */
+		/*Found this code off the W3 website*/
+		.row::after {
+  			content: "";
+  			clear: both;
+  			display: table;	
+		}
+		
+		.box-images{
+			height:300px;
+		}
+		
+		.buttom-padding
+		{
+			padding: 0px 0px 0px 10px;
+		}
+
+	</style>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,16 +56,16 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">2D Art</a>
+          <a class="nav-link" href="2DArt.html">2D Art</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">3D Art</a>
+          <a class="nav-link" href="3DArt.html" tabindex="-1" aria-disabled="true">3D Art</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Game Development</a>
+          <a class="nav-link" href="GameDevelopment.html" tabindex="-1" aria-disabled="true">Game Development</a>
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
@@ -54,33 +86,31 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/castleinthesky.png">
+        <img src="images/carousel_sword.png">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Testing</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <h1>World of (Hannah) Banana</h1>
+            <p>Welcome to my portfolio website, showcasing some of the project I took on the past two years as a student at Boise State University.</p>
+            <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>-->
-		   <img src="images/Genshin Impact.jpg">
+		   <img src="images/carousel_spacedream.png">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>Here is some of my work.</h1>
+            <p>Some of these projects are more recent and some are my very first attempts at game design and digital art.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-         <img src="images/Xenoblade Chronicles.jpg">
+         <img src="images/carousel_mirror.png">
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <h1>See the progress.</h1>
+            <p>From game development to 2D animation<br> to 3D modelling and more, come see the <br> works I've created in the past to see the <br>potential for the future.</p>
           </div>
         </div>
       </div>
@@ -95,8 +125,50 @@
     </a>
   </div>
 
-
-
+	<div class="row">
+  <div class="column">
+    <img src="images/smallimage_spacedream.png" alt="ASpaceDream" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_rowan.png" alt="Rowan" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_flyboy.png" alt="FlyBoy" style="width:60%" class="box-images">
+  </div>
+</div>
+	<div class="row">
+  <div class="column">
+    <img src="images/smallimage_groupgame.png" alt="GroupGame" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_sword.png" alt="Sword" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_mirror2.png" alt="MirrorGameDev" style="width:60%" class="box-images">
+  </div>
+</div>
+	<div class="row">
+  <div class="column">
+    <img src="images/smallimage_mirror.png" alt="Mirror" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_spacedream.png" alt="Forest" style="width:60%" class="box-images">
+  </div>
+  <div class="column">
+    <img src="images/smallimage_individualgame.png" alt="IndividualGame" style="width:60%" class="box-images">
+  </div>
+</div>
+	<div class="row">
+  <div class="column">
+<p><a class="btn btn-lg btn-primary" href="#" role="button">2D Art Gallery</a></p>
+</div>
+		<div class="column">
+<p><a class="btn btn-lg btn-primary" href="#" role="button">3D Art Gallery</a></p>
+</div>
+		<div class="column">
+<p><a class="btn btn-lg btn-primary" href="#" role="button">Game Dev Gallery</a></p>
+</div>
+	</div>
   <div class="custom_cont">
 
     

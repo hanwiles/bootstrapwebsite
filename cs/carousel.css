@@ -8,6 +8,23 @@ body {
   color: #5a5a5a;
 }
 
+.top-image-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-bottom: 50px;
+}
+
+.video-container{
+			
+}
+
+.video-left{
+	width: 320px;
+	height: 280px;
+	margin-left: 200px;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
