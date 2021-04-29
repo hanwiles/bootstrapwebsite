@@ -44,13 +44,12 @@
 			height: 500px;
 		}
 
-    .row-centered{
-      align-items: center;
-    }
-
-    .column-center{
-      align-self: center;
-    }
+    .grid-container{
+			display: grid;
+			grid-template-columns: 50% 50%;
+			grid-gap: 10px;
+			align-content: center;
+		}
 
     body {
       margin: 0;
@@ -109,14 +108,15 @@
 		</div>	
 	</div>
   <div class="container-fluid colorbackground">
-    <div class="spacer row row-centered">
-      <div class="column column-center">
-        Test test test
+    
+    <div class="spacer grid-container">
+      <div>
+		  <p align="center">Test test test Test test test Test test test Test test test Test test test Test test test Test test test Test test test Test test test</p>
       </div>
-      <div class="column column-center">
-        Test test Test
+	  <div> 
+		  <p align="center">Test test Test</p> 
       </div>
-    </div>
+	</div>
   </div>
   
 
