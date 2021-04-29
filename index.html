@@ -57,11 +57,18 @@
 		
 		.grid-item-text {
 			margin: auto;
-      padding-right: 25%;
+			padding-right: 25%;
+			grid-column: 2;
+			grid-row: 2;
+		}
+		
+		.grid-item2{
+			margin: auto 100px auto auto;
+			grid-row: 2;
 		}
 
-    .grid-item2{
-			margin: auto 100px auto auto;
+    .title-item{
+			grid-column: 1 / span 2;
 		}
 
     .image-me{
@@ -130,6 +137,9 @@
   <div class="container-fluid colorbackground">
     
     <div class="spacer grid-container">
+      <div class="title-item">
+        <p align="center">Hannah Wiles</p>
+        </div>
       <div class="grid-item2">
 		  <img class="image-me" src="images/me_300.png"/>
       </div>
